@@ -7,6 +7,9 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+body{
+    max-width: 1440px;
+}
 
 a {
     text-decoration: none;
@@ -38,7 +41,6 @@ a {
 .btn_orange {
     background-color: #FF900E;
     color: #FFF;
-    text-align: center;
     padding: 1.25rem 1.5rem;
     font-size: 1.25rem;
     font-weight: 600;
@@ -87,4 +89,30 @@ nav ul li {
 .header_image{
     margin: 3.125rem 0;
     max-width: 100%;
+}
+/* Features image Styles */
+.features_section{
+    display: flex;
+    text-align: center;
+    margin: 5.3125rem auto;
+}
+
+.features_img_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5625rem;
+}
+
+
+
+
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        padding: 1.5625rem;
+    }
 }
