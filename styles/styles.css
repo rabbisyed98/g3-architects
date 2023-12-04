@@ -188,6 +188,30 @@ nav ul li {
     line-height: 40px;
 }
 
+.fact_section {
+    margin-left: 5%;
+    }
+
+.fact_txt p {
+    width: 33.875rem;
+    margin-bottom: 6.25rem;
+}
+
+.fact_cards_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fact_card {
+    width: 15.125rem;
+    padding: 5rem 0;
+    margin: 3.125rem 0;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
 
 /* Mobile Responsive Styles */
 @media screen and (max-width: 576px) {
