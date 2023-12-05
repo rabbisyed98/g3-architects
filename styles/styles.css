@@ -190,14 +190,14 @@ nav ul li {
 
 .fact_section {
     margin-left: 5%;
-    }
+}
 
 .fact_txt p {
     width: 33.875rem;
     margin-bottom: 6.25rem;
 }
 
-.fact_cards_container{
+.fact_cards_container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -212,17 +212,25 @@ nav ul li {
     text-align: center;
 }
 
-.sponsor_txt p{
+.sponsor_txt p {
     width: 33.875rem;
     margin: 0 auto;
 }
 
-.sponsor_logo_container{
+.sponsor_logo_container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 1.25rem;
     margin: 3.125rem 0;
+}
+
+/* Footer Style */
+footer {
+    width: 100%;
+    padding: 3.125rem 0;
+    background-color: #FFF4E7;
+    margin: 13.4375rem 0;
 }
 
 
