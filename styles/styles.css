@@ -212,6 +212,19 @@ nav ul li {
     text-align: center;
 }
 
+.sponsor_txt p{
+    width: 33.875rem;
+    margin: 0 auto;
+}
+
+.sponsor_logo_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 3.125rem 0;
+}
+
 
 /* Mobile Responsive Styles */
 @media screen and (max-width: 576px) {
