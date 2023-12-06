@@ -6,6 +6,7 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    /* border: 1px solid crimson; */
 }
 
 body {
@@ -243,4 +244,30 @@ footer {
     nav ul {
         padding: 1.5625rem;
     }
+
+    .teams_section {
+        flex-direction: column;
+    }
+
+    .teams_img_container {
+        grid-template-columns: 1fr;
+    }
+
+    .features_section {
+        flex-direction: column;
+    }
+
+    .features_img {
+        max-width: 100%;
+    }
+
+    .sponsor_logo_container {
+        flex-direction: column;
+    }
+    .fact_cards_container {
+        flex-wrap: wrap;
+    }
 }
+
+/* Responsive styles for tablet device */
+@media screen and (min-width: 992px) {}
