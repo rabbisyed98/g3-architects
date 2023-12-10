@@ -267,7 +267,31 @@ footer {
     .fact_cards_container {
         flex-wrap: wrap;
     }
+    .sponsor_txt{
+        max-width: 100%;
+        margin: 0 1.25rem;
+    }
 }
 
 /* Responsive styles for tablet device */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 768px) {
+    .features_section{
+        flex-direction: column;
+    }
+    .features_img_container{
+        max-width: 100%;
+    }
+    .features_img{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .teams_section{
+        flex-direction: column;
+    }
+    .fact_cards_container{
+        flex-wrap: wrap;
+    }
+    .sponsor_logo_container{
+        flex-wrap: wrap;
+    }
+}
